@@ -1,16 +1,18 @@
-# p1
+#  Flutter Public API ListView App
 
-A new Flutter project.
+This is a simple Flutter app that demonstrates how to fetch and display data from a public API (`https://jsonplaceholder.typicode.com/posts`). It shows a list of post titles in a scrollable view and allows users to tap on a title to view the full post content on a new screen.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetches posts from JSONPlaceholder API
+- Displays post titles in a styled `ListView`
+- Handles loading and error states
+- Navigates to a detail screen when a post is tapped
+- Clean UI with Card-based layout
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
